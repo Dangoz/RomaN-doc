@@ -1,0 +1,23 @@
+{
+  "name": "RomaN-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Dangoz/RomaN-doc.git",
+  "author": "team RomaN",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^12.1.0",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
