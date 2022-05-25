@@ -13,3 +13,5 @@ off chain data: user meta (name,age,photos, .....) followers/following, blocked 
 ## Social
 
 ## Tokenization
+
+## Incentives
