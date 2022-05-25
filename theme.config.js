@@ -4,9 +4,17 @@ export default {
   titleSuffix: ' – RomaN',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">RomaN Documentation</span>
+      {/* text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 cursor-default  */}
+      <span className="mr-2 font-extrabold hidden md:inline">
+        {/* RomaN */}
+        <span className="text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 cursor-default">
+          RomaN
+        </span>
+        <span>  Documentation  </span>
+      </span>
       <span className="text-gray-600 font-normal hidden md:inline">
         {/* Description */}
+        <img src="event.png" alt="eth" width="50" />
       </span>
     </>
   ),
