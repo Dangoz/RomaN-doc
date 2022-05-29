@@ -24,12 +24,13 @@ Nowadays web2 dating applications have several problems :
         - There is few dating web2 sites lying on ads for monetizing , all functionalities are free to all users, but they are often full of spams and fake profiles.
     3. trust transparency
         - web2 site are full of bots and spam.
+		- 
 
 ## Solution
 At RomaN we analysis these problems and leverage the web3 technology to find solutions.
     1. privacy
         - on the blockchain users own their data
-        - 
+        - also our application, users own their profiles
     2. charges
         - RomaN is designed to solve all the web2 monetisation problems.
             - Browse, search and filter profiles is free.
@@ -40,7 +41,7 @@ At RomaN we analysis these problems and leverage the web3 technology to find sol
             - users can withdraw any time their sold or recharge their balance.
         - the site is ads free, we monetise by taking a percentage of the transfer to pay for the infra (hosting, ...) and the RomaN Team.
     3. trust transparency
-        - all transactions are saved on the blockchain ledgers.
+        - all transactions are saved on the blockchain ledgers and public.
         - proof of humanity to mint a RomanToken - not implemented yet
         - verified users get bonus -  not implemented yet
         - Behaviour: transfer amount = amount*(behaviour/100) - charges
@@ -52,6 +53,7 @@ At RomaN we analysis these problems and leverage the web3 technology to find sol
                      user B behaviour = 50 (user B blocked 50 times)
             user A view user B profile : user A pay 100, user B receive = 100*(50/100) - 10 = 40
             user B view user A profile : user B pay 100, user A receive = 100*(100/100) - 10 = 90
+		- User can see not only (following, followers, matches,...) but also who is blocking her/him and why.  
 
 * plus tx fees
 ** using ether for testnet
