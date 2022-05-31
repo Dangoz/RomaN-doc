@@ -48,7 +48,7 @@ With user interactions built based on decentralized protocols, users receive rec
 - On Chain Behavior Score
     - Assuming user's full honesty, user behavior score defaults at 100 upon RomaNToken mint.
     - Each time a user gets reported, behaviour is deducted by one which will affect directly the reward that they can withdraw:
-        - Example: 
+        - Example:
             - view profile = 100,
             - commission = 10,
             - user A behaviour = 100,
@@ -57,6 +57,6 @@ With user interactions built based on decentralized protocols, users receive rec
             - user B view user A profile : user B pay 100, user A receive = 100*(100/100) - 10 = 90
 - Users have access to follow or LIKE, be followed or be LIKED, match or CONNECTED, and block or REPORT with others.
 
-* plus tx fees
-** using ether for testnet
-*** some interactions are paid once
+<div>* plus tx fees</div>
+<div>** using ether for testnet</div>
+<div>*** some interactions are paid once</div>
