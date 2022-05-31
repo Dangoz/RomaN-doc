@@ -1,59 +1,61 @@
 # RomaN
-<img src="submission.png" alt="submission" width="600"/>
+<h3>App Link:</h3><div>https://roman-date.vercel.app</div>
+<h3>Github Organization Link (Repositories):</h3><div>https://github.com/RomaN-Date</div>
 
 ## Description
-RomaN is a 
-    dating decentralized application,
-    prepaid,
-    pay by click,
-    earn,
-        built with 
-            trust
-            transparency
-            honesty 
-        in mind.
+Roman is a socialfi dating dApp, prepaid, pay and earn by LIKE, built with trust transparency and honesty in mind.
+The blockchain and the sponsored protocols comes with brilliant solutions to leverage web2 dating industry with content, interoperability and incentives.
+With user interactions built based on decentralized protocols, users receive recommended links through CyberConnect, view pre-generated profiles through RSS3, and are able to converse with ones' digital identity through XMTP.
 
-The blockchain comes with brilliant solutions to leverage web2 dating industry.
+## Privacy & Verfication
+#### Problem: 
+- Users don't have ownership of their data. User profiles are often fake and created by unverified identities.
+#### Solution: 
+- User identities are based on one's address.
+- User retain ownership of their data such as content, posts and social links.
+- On RomaN, based on existing identities and newly create social links, users are only able to chat with the ones who share a mutual LIKE relationship.
 
-## Problem
-Nowadays web2 dating applications have several problems :
-    1. privacy 
-        - web2 dating compagnies own users data like email, bank account information
-    2. charges 
-        - user have the choices between limited services or automatic monthly subscription via bank or PayPal and there is  hundreds of dating site per country.
-        - There is few dating web2 sites lying on ads for monetizing , all functionalities are free to all users, but they are often full of spams and fake profiles.
-    3. trust transparency
-        - web2 site are full of bots and spam.
-		- 
+## Cold Start Problem
+#### Problem:
+- Content creators wouldn't come without users, and users wouldn't come without content. Web2 social or dating applications often face difficulties building ones' initial user base, in order to scale its network effects.
+#### Solution:
+- The hard side of the two parties - content creators can be solved, by leveraging data linked from decentralized distribution protocols.
+- Users' social links can be carried over to RomaN, and become a contributing factor in users' feed.
+- For users who have built meaningful relationship on RomaN or even before RomaN, conversations can be established across applications.
+- Future recommendation/extension: encourage users to establish profile with Next.ID/Mask.io for use on RomaN.
 
-## Solution
-At RomaN we analysis these problems and leverage the web3 technology to find solutions.
-    1. privacy
-        - on the blockchain users own their data
-        - also our application, users own their profiles
-    2. charges
-        - RomaN is designed to solve all the web2 monetisation problems.
-            - Browse, search and filter profiles is free.
-            - to create a profile, user have to mint a free* RomanToken an ERC721 token.
-            - RomanToken is a SoulBound NFT. any address can mint only one token and transfer functions are blocked. 
-            - RomanToken holders can deposit any value they want in stableCoin** to the RomanTokenVault contract(payment channel).
-            - Interacting with others (view a profile***, like, msg, .....) will trigger a transfer of a variable amount of the stableCoin with no fees.
-            - users can withdraw any time their sold or recharge their balance.
-        - the site is ads free, we monetise by taking a percentage of the transfer to pay for the infra (hosting, ...) and the RomaN Team.
-    3. trust transparency
-        - all transactions are saved on the blockchain ledgers and public.
-        - proof of humanity to mint a RomanToken - not implemented yet
-        - verified users get bonus -  not implemented yet
-        - Behaviour: transfer amount = amount*(behaviour/100) - charges
-            - We assume all users are honest, when a user mint an RomanToken behaviour is set to 100 
-            - each time a user get reported, behaviour is deducted by one which will affect directly 
-            example: view profile = 100,
-                     charges = 10,
-                     user A behaviour = 100,
-                     user B behaviour = 50 (user B blocked 50 times)
-            user A view user B profile : user A pay 100, user B receive = 100*(50/100) - 10 = 40
-            user B view user A profile : user B pay 100, user A receive = 100*(100/100) - 10 = 90
-		- User can see not only (following, followers, matches,...) but also who is blocking her/him and why.  
+## Monetization
+#### Problem:
+- Fierce competition with monthly subscription via bank or Payal as the primary revenue stream.
+- Limited services for unsubscribed users.
+#### Solution:
+- RomaN is designed to solve all the web2 monetisation problems.
+    - Users can browser, search profiles for free.
+    - User get free pre-generated profiles and can be viewed by others.
+    - User can mint their profile as NFT - RomaNToken
+    - RomanToken is a SoulBound-Like NFT. Any address can mint only one token and transfer functions are blocked.
+    - RomanToken holders can deposit any value in ether (with stableCoin** as a future extension) to the RomanTokenVault contract(payment channel)
+    - Interacting with others (view a profile***, like, msg, .....) will trigger a transfer of a variable amount of the ether (or stableCoin) with no fees.
+    - Users can withdraw any time their sold or recharge their balance.
+- The site is ads free, we monetise by taking a percentage of the transfer to pay for the infra (hosting, ...) and the RomaN Team.
+
+## Trust & Transparency
+#### Problem:
+- Web 2 social or dating applications are often filled with bots and spams.
+#### Solution:
+- All transactions are saved on the blockchain ledgers and public.
+- Proof of humanity to mint a RomanToken.
+- On Chain Behavior Score
+    - Assuming user's full honesty, user behavior score defaults at 100 upon RomaNToken mint.
+    - Each time a user gets reported, behaviour is deducted by one which will affect directly the reward that they can withdraw:
+        - Example: 
+            - view profile = 100,
+            - commission = 10,
+            - user A behaviour = 100,
+            - user B behaviour = 50 (user B blocked 50 times)
+            - user A view user B profile : user A pay 100, user B receive = 100*(50/100) - 10 = 40
+            - user B view user A profile : user B pay 100, user A receive = 100*(100/100) - 10 = 90
+- Users have access to follow or LIKE, be followed or be LIKED, match or CONNECTED, and block or REPORT with others.
 
 * plus tx fees
 ** using ether for testnet
